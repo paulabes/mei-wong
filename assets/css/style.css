@@ -33,9 +33,25 @@ h2 {
 }
 
 #hero {
-background-image: url("../images/background.webp");
-background-size: cover;
-background-position: 50% 70%;
-min-height: 500px;
-padding: 5% 7%;
+    background-image: url("../images/background.webp");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 5% 7%;
+}
+
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #1f7798;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #1f7798;
+    border-radius: 0;
 }
